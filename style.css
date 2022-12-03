@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.2)),
+    url(/assets/after_noon.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    font-size: 2em;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 2rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+.location{
+    margin-left: 15px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    color: antiquewhite;
+    margin-bottom: 20rem;
+}
+
+footer .temperature{
+    font-size: 3rem;
+}
+
+footer .temp-class{
+    display: flex;
+    cursor: pointer;
+    width: 100px;
+}
+
+footer .icon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15rem;
+}
+
+.input-txt{
+    width: 20rem;
+    border: none;
+    margin-right: 2rem;
+    border-radius: 5px;
+    padding: 3px;
+    box-shadow: 0px 0px 5px whitesmoke ;
+}
+.submit-btn{
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    box-shadow: 0px 0px 5px whitesmoke ;
+    cursor: pointer;
+}
+
+.icon-img{
+    width: 5rem;
+}
